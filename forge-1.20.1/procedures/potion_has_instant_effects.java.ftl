@@ -1,0 +1,1 @@
+${input$potion}.hasInstantEffects()

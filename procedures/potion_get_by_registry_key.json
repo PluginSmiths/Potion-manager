@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "name",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Potion",
+  "colour": "#534997",
+  "mcreator": {
+    "toolbox_id": "potions",
+    "toolbox_init": [
+      "<value name=\"name\"><block type=\"text\"><field name=\"TEXT\">text</field></block></value>"
+    ],
+    "inputs": [
+      "name"
+    ]
+  }
+}

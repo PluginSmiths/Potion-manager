@@ -1,0 +1,28 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "item",
+      "check": "MCItem"
+    },
+    {
+      "type": "input_value",
+      "name": "potion",
+      "check": "Potion"
+    }
+  ],
+  "inputsInline": true,
+  "output": "MCItem",
+  "colour": "#996069",
+  "mcreator": {
+    "toolbox_id": "potions",
+    "toolbox_init": [
+      "<value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\"></field></block></value>",
+      "<value name=\"potion\"><block type=\"variables_get_potion\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "item",
+      "potion"
+    ]
+  }
+}

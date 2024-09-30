@@ -1,0 +1,34 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "Length",
+      "type": "number"
+    },
+    {
+      "name": "Potion",
+      "type": "potion"
+    },
+    {
+      "name": "Ingredient",
+      "type": "itemstack"
+    },
+    {
+      "name": "Fuel",
+      "type": "itemstack"
+    },
+    {
+      "name": "FirstResult",
+      "type": "itemstack"
+    },
+    {
+      "name": "SecondResult",
+      "type": "itemstack"
+    },
+    {
+      "name": "ThirdResult",
+      "type": "itemstack"
+    }
+  ],
+  "cancelable": true,
+  "side": "both"
+}

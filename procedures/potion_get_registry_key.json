@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "potion",
+      "check": "Potion"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "#609986",
+  "mcreator": {
+    "toolbox_id": "potions",
+    "toolbox_init": [
+      "<value name=\"potion\"><block type=\"variables_get_potion\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "potion"
+    ]
+  }
+}
