@@ -1,0 +1,1 @@
+PotionUtils.getColor(${input$Potion})

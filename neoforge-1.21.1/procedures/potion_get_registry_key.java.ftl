@@ -1,0 +1,1 @@
+ForgeRegistries.POTIONS.getKey(${input$potion}).toString()
